@@ -273,7 +273,7 @@ img {
 }
 @media (min-width: 660px) {
   .pink__download {
-    background-image: url("../images/index-img/page-header/tablet__hand.jpg");
+    background-image: url("/images/index-img/page-header/tablet__hand.jpg");
     background-position: 50% 100%;
     background-repeat: no-repeat;
     padding-bottom: 100px;
@@ -314,7 +314,7 @@ img {
 }
 @media (min-width: 1200px) {
   .pink__download {
-    background-image: url("../images/index-img/page-header/desktop__hand.jpg");
+    background-image: url("/images/index-img/page-header/desktop__hand.jpg");
     background-position: 50% 100%;
     background-repeat: no-repeat;
     padding-bottom: 150px;
@@ -366,10 +366,14 @@ img {
   font-weight: 300;
   color: #d22856;
 }
+.contact__map {
+  position: relative;
+}
 .contact__map--img-wrapper {
   width: 100%;
   position: absolute;
   height: 80px;
+  top: -1px;
 }
 @media (min-width: 660px) {
   .contact__title {
@@ -548,7 +552,7 @@ img {
   }
 }
 .features {
-  background-image: url("../images//index-img/page-main/features/Shape-tablet.png");
+  background-image: url("/images//index-img/page-main/features/Shape-tablet.png");
   background-repeat: no-repeat;
   background-position: 0 -90px;
   background-size: 300% 120%;
@@ -591,7 +595,7 @@ img {
 }
 @media (min-width: 660px) {
   .features {
-    background-image: url("../images//index-img/page-main/features/Shape-tablet.png");
+    background-image: url("/images//index-img/page-main/features/Shape-tablet.png");
     background-repeat: no-repeat;
     background-position: 0 0;
     background-size: 200% 140%;
@@ -651,7 +655,7 @@ img {
 }
 .price {
   padding-top: 100px;
-  background-image: url("../images/page-main/features/Shape_2.png");
+  background-image: url("/images/page-main/features/Shape_2.png");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: cover;
@@ -700,7 +704,7 @@ img {
 .table__header__list--hit ::before {
   position: absolute;
   content: "";
-  background-image: url("../images/page-main/price/price-hit.png");
+  background-image: url("/images/page-main/price/price-hit.png");
   background-size: 70px 70px;
   width: 70px;
   height: 70px;
@@ -1062,7 +1066,7 @@ img {
   justify-content: center;
   align-items: center;
   height: 360px;
-  background-image: url("../images/photo-img/header/back-mobile.jpg");
+  background-image: url("/images/photo-img/header/back-mobile.jpg");
   background-size: cover;
 }
 .pink-form .header__content__title {
@@ -1077,7 +1081,7 @@ img {
 @media (min-width: 660px) {
   .header__content {
     height: 440px;
-    background-image: url("../images/photo-img/header/back-tablet@1x.jpg");
+    background-image: url("/images/photo-img/header/back-tablet@1x.jpg");
   }
   .pink-form .header__content__title {
     width: 600px;
@@ -1090,7 +1094,7 @@ img {
 }
 @media (min-width: 1200px) {
   .header__content {
-    background-image: url("../images/photo-img/header/back-desktop.jpg");
+    background-image: url("/images/photo-img/header/back-desktop.jpg");
   }
   .pink-form .header__content__title {
     width: 900px;
@@ -1130,7 +1134,7 @@ img {
   margin: 0;
 }
 .photo__content .photo__content__like::before {
-  content: url("../images/photo-img/photo-section/icon-heart.svg");
+  content: url("/images/photo-img/photo-section/icon-heart.svg");
   margin-right: 10px;
 }
 .photo__content__img {
@@ -1183,7 +1187,7 @@ img {
     display: none;
   }
   .photo__content__like::after {
-    content: url("../images/photo-img/photo-section/icon-heart.svg");
+    content: url("/images/photo-img/photo-section/icon-heart.svg");
     margin-left: 170px;
   }
   .photo__content__img--day {
@@ -1220,7 +1224,7 @@ img {
     margin: 0;
   }
   .photo__day__content__like::after {
-    content: url("../images/photo-img/photo-section/icon-heart.svg");
+    content: url("/images/photo-img/photo-section/icon-heart.svg");
     margin-right: 5px;
     margin-left: 10px;
   }
@@ -1727,33 +1731,45 @@ img {
   display: none;
   cursor: pointer;
 }
-.user-apps__label::before {
+.user-apps__radio:checked + .user-apps__label:before,
+.user-apps__radio:not(:checked) + .user-apps__label:before {
   content: "";
   display: inline-block;
   width: 35px;
   height: 35px;
+  border: 2px solid #e5e5e5;
   margin-right: 20px;
   border-radius: 50%;
-  border: 2px solid #e5e5e5;
-  text-align: center;
 }
-.user-apps__label:hover::before {
+.user-apps__radio:checked + .user-apps__label:hover:before,
+.user-apps__radio:not(:checked) + .user-apps__label:hover:before {
   border-color: black;
   transition: 0.9s;
 }
-.user-apps__label:active::before {
+.user-apps__radio:checked + .user-apps__label:active:before,
+.user-apps__radio:not(:checked) + .user-apps__label:active:before {
   border-color: #d63c66;
   transition: 0.1s;
 }
-.user-apps__radio:checked + .user-apps__label::after {
+.user-apps__radio:checked + .user-apps__label:after,
+.user-apps__radio:not(:checked) + .user-apps__label:after {
   content: "";
-  display: inline-block;
+  position: absolute;
+  transition: all 0.2s ease;
+}
+.user-apps__radio:checked + .user-apps__label:after {
+  left: 12px;
+  top: 12px;
   width: 15px;
   height: 15px;
+  border-radius: 100%;
   background-color: #d22856;
-  border-radius: 50%;
-  position: absolute;
-  left: 12px;
+}
+.user-apps__radio:not(:checked) + .user-apps__label:after {
+  opacity: 0;
+}
+.user-apps__radio:checked + .user-apps__label:after {
+  opacity: 1;
 }
 @media (min-width: 660px) {
   .user-apps__section {
@@ -2048,6 +2064,7 @@ img {
 }
 .user-contact__title {
   display: none;
+  text-align: center;
 }
 .user-contact__text__wrapper {
   display: flex;
@@ -2141,7 +2158,7 @@ img {
   }
   .user-contact__text__wrapper--phone::after {
     content: "";
-    background-image: url("../images/page-from/icon-phone.svg");
+    background-image: url("/images/page-from/icon-phone.svg");
     width: 20px;
     height: 19px;
     position: absolute;
@@ -2150,7 +2167,7 @@ img {
   }
   .user-contact__text__wrapper--mail::after {
     content: "";
-    background-image: url("../images/page-from/icon-mail.svg");
+    background-image: url("/images/page-from/icon-mail.svg");
     width: 18px;
     height: 13px;
     position: absolute;
@@ -2168,13 +2185,20 @@ img {
   }
 }
 @media (min-width: 1200px) {
+  .user-contact__section {
+    margin: 0 auto;
+    width: 100%;
+  }
   .user-contact {
-    display: flex;
-    width: 960px;
     border: 2px solid #e5e5e5;
   }
   .user-contact__title {
     display: block;
+    margin: 0 auto;
+  }
+  .user-contact__wrapper {
+    display: flex;
+    width: 960px;
   }
   .user-contact__text__wrapper {
     margin: 0 auto;
@@ -2193,7 +2217,7 @@ img {
   }
   .user-contact__text__wrapper--phone::after {
     content: "";
-    background-image: url("../images/page-from/icon-phone.svg");
+    background-image: url("/images/page-from/icon-phone.svg");
     width: 20px;
     height: 19px;
     position: absolute;
@@ -2202,7 +2226,7 @@ img {
   }
   .user-contact__text__wrapper--mail::after {
     content: "";
-    background-image: url("../images/page-from/icon-mail.svg");
+    background-image: url("/images/page-from/icon-mail.svg");
     width: 18px;
     height: 13px;
     position: absolute;
