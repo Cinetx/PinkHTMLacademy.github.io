@@ -2189,7 +2189,7 @@ img {
 @media (min-width: 1200px) {
   .user-contact__section {
     margin: 0 auto;
-    width: 100%;
+    width: 960px;
   }
   .user-contact {
     border: 2px solid #e5e5e5;
