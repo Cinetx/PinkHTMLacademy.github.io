@@ -273,7 +273,8 @@ img {
 }
 @media (min-width: 660px) {
   .pink__download {
-    background-image: url("/images/index-img/page-header/tablet__hand.jpg");
+    background-color: #1d2631;
+    background-image: url("../images/index-img/page-header/tablet__hand.jpg");
     background-position: 50% 100%;
     background-repeat: no-repeat;
     padding-bottom: 100px;
@@ -314,7 +315,7 @@ img {
 }
 @media (min-width: 1200px) {
   .pink__download {
-    background-image: url("/images/index-img/page-header/desktop__hand.jpg");
+    background-image: url("../images/index-img/page-header/desktop__hand.jpg");
     background-position: 50% 100%;
     background-repeat: no-repeat;
     padding-bottom: 150px;
@@ -552,7 +553,7 @@ img {
   }
 }
 .features {
-  background-image: url("/images//index-img/page-main/features/Shape-tablet.png");
+  background-image: url("../images//index-img/page-main/features/Shape-tablet.png");
   background-repeat: no-repeat;
   background-position: 0 -90px;
   background-size: 300% 120%;
@@ -595,7 +596,7 @@ img {
 }
 @media (min-width: 660px) {
   .features {
-    background-image: url("/images//index-img/page-main/features/Shape-tablet.png");
+    background-image: url("../images//index-img/page-main/features/Shape-tablet.png");
     background-repeat: no-repeat;
     background-position: 0 0;
     background-size: 200% 140%;
@@ -655,7 +656,7 @@ img {
 }
 .price {
   padding-top: 100px;
-  background-image: url("/images/page-main/features/Shape_2.png");
+  background-image: url("../images/page-main/features/Shape_2.png");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: cover;
@@ -704,7 +705,7 @@ img {
 .table__header__list--hit ::before {
   position: absolute;
   content: "";
-  background-image: url("/images/page-main/price/price-hit.png");
+  background-image: url("../images/page-main/price/price-hit.png");
   background-size: 70px 70px;
   width: 70px;
   height: 70px;
@@ -1067,7 +1068,7 @@ img {
   align-items: center;
   height: 360px;
   background-color: #1d2631;
-  background-image: url("/images/photo-img/header/back-mobile.jpg");
+  background-image: url("../images/photo-img/header/back-mobile.jpg");
   background-size: cover;
 }
 .pink-form .header__content__title {
@@ -1082,7 +1083,7 @@ img {
 @media (min-width: 660px) {
   .header__content {
     height: 440px;
-    background-image: url("/images/photo-img/header/back-tablet@1x.jpg");
+    background-image: url("../images/photo-img/header/back-tablet@1x.jpg");
   }
   .pink-form .header__content__title {
     width: 600px;
@@ -1095,7 +1096,7 @@ img {
 }
 @media (min-width: 1200px) {
   .header__content {
-    background-image: url("/images/photo-img/header/back-desktop.jpg");
+    background-image: url("../images/photo-img/header/back-desktop.jpg");
   }
   .pink-form .header__content__title {
     width: 900px;
