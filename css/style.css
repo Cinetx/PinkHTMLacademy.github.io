@@ -2136,6 +2136,7 @@ img {
   opacity: 1;
 }
 @media (min-width: 660px) {
+
   .user-contact {
     width: 620px;
     border: 2px solid #e5e5e5;
@@ -2189,10 +2190,11 @@ img {
 @media (min-width: 1200px) {
   .user-contact__section {
     margin: 0 auto;
-    width: 960px;
+    width: auto;
   }
   .user-contact {
     border: 2px solid #e5e5e5;
+    width: auto;
   }
   .user-contact__title {
     display: block;
@@ -2219,7 +2221,7 @@ img {
   }
   .user-contact__text__wrapper--phone::after {
     content: "";
-    background-image: url("/images/page-from/icon-phone.svg");
+    background-image: url("../images/page-from/icon-phone.svg");
     width: 20px;
     height: 19px;
     position: absolute;
@@ -2228,7 +2230,7 @@ img {
   }
   .user-contact__text__wrapper--mail::after {
     content: "";
-    background-image: url("/images/page-from/icon-mail.svg");
+    background-image: url("../images/page-from/icon-mail.svg");
     width: 18px;
     height: 13px;
     position: absolute;
