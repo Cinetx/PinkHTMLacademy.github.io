@@ -1066,6 +1066,7 @@ img {
   justify-content: center;
   align-items: center;
   height: 360px;
+  background-color: #1d2631;
   background-image: url("/images/photo-img/header/back-mobile.jpg");
   background-size: cover;
 }
