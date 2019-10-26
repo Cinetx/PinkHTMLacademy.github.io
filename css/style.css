@@ -1666,8 +1666,7 @@ img {
 }
 @media (min-width: 660px) {
   .user-data {
-    width: 100%;
-    border:2px solid red;
+    width: auto;
     margin-bottom: 40px;
   }
   .user-data__wrapper {
@@ -1683,6 +1682,7 @@ img {
   }
   .user-data__text {
     margin-left: 0;
+    font-size: 14px;
   }
 }
 @media (min-width: 1200px) {
