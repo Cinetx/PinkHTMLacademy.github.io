@@ -1667,6 +1667,7 @@ img {
 @media (min-width: 660px) {
   .user-data {
     width: 100%;
+    border:2px solid red;
     margin-bottom: 40px;
   }
   .user-data__wrapper {
