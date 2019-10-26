@@ -1672,6 +1672,10 @@ img {
   .user-data__wrapper {
     width: 640px;
   }
+  .user-data__input__wrapper{
+    display: flex;
+    width: 660px;
+  }
   .user-data__input {
     width: 521px;
     margin-bottom: 40px;
