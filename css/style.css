@@ -1136,7 +1136,7 @@ img {
   margin: 0;
 }
 .photo__content .photo__content__like::before {
-  content: url("/images/photo-img/photo-section/icon-heart.svg");
+  content: url("../images/photo-img/photo-section/icon-heart.svg");
   margin-right: 10px;
 }
 .photo__content__img {
@@ -1189,7 +1189,7 @@ img {
     display: none;
   }
   .photo__content__like::after {
-    content: url("/images/photo-img/photo-section/icon-heart.svg");
+    content: url("../images/photo-img/photo-section/icon-heart.svg");
     margin-left: 170px;
   }
   .photo__content__img--day {
@@ -1226,7 +1226,7 @@ img {
     margin: 0;
   }
   .photo__day__content__like::after {
-    content: url("/images/photo-img/photo-section/icon-heart.svg");
+    content: url("../images/photo-img/photo-section/icon-heart.svg");
     margin-right: 5px;
     margin-left: 10px;
   }
@@ -2164,7 +2164,7 @@ img {
   }
   .user-contact__text__wrapper--phone::after {
     content: "";
-    background-image: url("/images/page-from/icon-phone.svg");
+    background-image: url("../images/page-from/icon-phone.svg");
     width: 20px;
     height: 19px;
     position: absolute;
@@ -2173,7 +2173,7 @@ img {
   }
   .user-contact__text__wrapper--mail::after {
     content: "";
-    background-image: url("/images/page-from/icon-mail.svg");
+    background-image: url("../images/page-from/icon-mail.svg");
     width: 18px;
     height: 13px;
     position: absolute;
