@@ -273,8 +273,7 @@ img {
 }
 @media (min-width: 660px) {
   .pink__download {
-    background-color: #1d2631;
-    background-image: url("../images/index-img/page-header/tablet__hand.jpg");
+    background-image: url("/images/index-img/page-header/tablet__hand.jpg");
     background-position: 50% 100%;
     background-repeat: no-repeat;
     padding-bottom: 100px;
@@ -315,7 +314,7 @@ img {
 }
 @media (min-width: 1200px) {
   .pink__download {
-    background-image: url("../images/index-img/page-header/desktop__hand.jpg");
+    background-image: url("/images/index-img/page-header/desktop__hand.jpg");
     background-position: 50% 100%;
     background-repeat: no-repeat;
     padding-bottom: 150px;
@@ -375,6 +374,10 @@ img {
   position: absolute;
   height: 80px;
   top: -1px;
+}
+.contact__map iframe {
+  width: 100%;
+  height: 500px;
 }
 @media (min-width: 660px) {
   .contact__title {
@@ -553,7 +556,7 @@ img {
   }
 }
 .features {
-  background-image: url("../images//index-img/page-main/features/Shape-tablet.png");
+  background-image: url("/images//index-img/page-main/features/Shape-tablet.png");
   background-repeat: no-repeat;
   background-position: 0 -90px;
   background-size: 300% 120%;
@@ -596,7 +599,7 @@ img {
 }
 @media (min-width: 660px) {
   .features {
-    background-image: url("../images//index-img/page-main/features/Shape-tablet.png");
+    background-image: url("/images//index-img/page-main/features/Shape-tablet.png");
     background-repeat: no-repeat;
     background-position: 0 0;
     background-size: 200% 140%;
@@ -656,7 +659,7 @@ img {
 }
 .price {
   padding-top: 100px;
-  background-image: url("../images/page-main/features/Shape_2.png");
+  background-image: url("/images/page-main/features/Shape_2.png");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: cover;
@@ -705,7 +708,7 @@ img {
 .table__header__list--hit ::before {
   position: absolute;
   content: "";
-  background-image: url("../images/page-main/price/price-hit.png");
+  background-image: url("/images/page-main/price/price-hit.png");
   background-size: 70px 70px;
   width: 70px;
   height: 70px;
@@ -1136,7 +1139,7 @@ img {
   margin: 0;
 }
 .photo__content .photo__content__like::before {
-  content: url("../images/photo-img/photo-section/icon-heart.svg");
+  content: url("/images/photo-img/photo-section/icon-heart.svg");
   margin-right: 10px;
 }
 .photo__content__img {
@@ -1189,7 +1192,7 @@ img {
     display: none;
   }
   .photo__content__like::after {
-    content: url("../images/photo-img/photo-section/icon-heart.svg");
+    content: url("/images/photo-img/photo-section/icon-heart.svg");
     margin-left: 170px;
   }
   .photo__content__img--day {
@@ -1226,7 +1229,7 @@ img {
     margin: 0;
   }
   .photo__day__content__like::after {
-    content: url("../images/photo-img/photo-section/icon-heart.svg");
+    content: url("/images/photo-img/photo-section/icon-heart.svg");
     margin-right: 5px;
     margin-left: 10px;
   }
@@ -1672,7 +1675,7 @@ img {
   .user-data__wrapper {
     width: 640px;
   }
-  .user-data__input__wrapper{
+  .user-data__input__wrapper {
     display: flex;
     width: 660px;
   }
@@ -1686,7 +1689,6 @@ img {
   }
   .user-data__text {
     margin-left: 0;
-    font-size: 14px;
   }
 }
 @media (min-width: 1200px) {
@@ -2061,7 +2063,6 @@ img {
 }
 .user-contact__section {
   margin: 0 auto;
-  width: 320px;
   padding-top: 40px;
   padding-bottom: 20px;
 }
@@ -2142,9 +2143,6 @@ img {
   opacity: 1;
 }
 @media (min-width: 660px) {
-  .user-contact__section {
-    width: 660px;
-  }
   .user-contact {
     width: 620px;
     border: 2px solid #e5e5e5;
@@ -2169,7 +2167,7 @@ img {
   }
   .user-contact__text__wrapper--phone::after {
     content: "";
-    background-image: url("../images/page-from/icon-phone.svg");
+    background-image: url("/images/page-from/icon-phone.svg");
     width: 20px;
     height: 19px;
     position: absolute;
@@ -2178,7 +2176,7 @@ img {
   }
   .user-contact__text__wrapper--mail::after {
     content: "";
-    background-image: url("../images/page-from/icon-mail.svg");
+    background-image: url("/images/page-from/icon-mail.svg");
     width: 18px;
     height: 13px;
     position: absolute;
@@ -2197,11 +2195,11 @@ img {
 }
 @media (min-width: 1200px) {
   .user-contact__section {
-    width: 1000px;
+    margin: 0 auto;
+    width: 100%;
   }
   .user-contact {
     border: 2px solid #e5e5e5;
-    width: auto;
   }
   .user-contact__title {
     display: block;
@@ -2228,7 +2226,7 @@ img {
   }
   .user-contact__text__wrapper--phone::after {
     content: "";
-    background-image: url("../images/page-from/icon-phone.svg");
+    background-image: url("/images/page-from/icon-phone.svg");
     width: 20px;
     height: 19px;
     position: absolute;
@@ -2237,7 +2235,7 @@ img {
   }
   .user-contact__text__wrapper--mail::after {
     content: "";
-    background-image: url("../images/page-from/icon-mail.svg");
+    background-image: url("/images/page-from/icon-mail.svg");
     width: 18px;
     height: 13px;
     position: absolute;

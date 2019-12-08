@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
-  <link href="css/style.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet" rel="preload" as="style">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap&subset=cyrillic" rel="stylesheet" as="font">
   <meta charset="UTF-8">
   <title>pink</title>
@@ -172,7 +172,7 @@
 
 <div class="pink-navigation__wrapper">
       <div class="navigation-logo">
-     <a href="#"class="logo">
+     <a href="#" class="logo">
        <svg class="logo__header--mobile" width="75" height="22"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo-pink-white-mobile"></use></svg>
        <svg class="logo__header--tablet" width="148" height="40"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo-pink-white-tablet"></use></svg>
        <svg class="logo__header--desktop" width="148" height="40"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo-pink-white-desktop"></use></svg>
@@ -212,9 +212,9 @@
   <picture>
   	<source media="(min-width: 960px)" srcset="images/photo-img/photo-section/desktop/panorama-desktop.jpg">
   	<source media="(min-width: 660px)" srcset="images/photo-img/photo-section/tablet/panorama-tablet.jpg">
-  	<img class="photo__content__img--day" src= "images/photo-img/photo-section/mobile/panorama-mobile.jpg">
-    <p class="photo__content__img--day__text">ПАНОРАМА ДНЯ</p>
+  	<img class="photo__content__img--day" src= "images/photo-img/photo-section/mobile/panorama-mobile.jpg" alt="ПАНОРАМА ДНЯ">
   </picture>
+  <p class="photo__content__img--day__text">ПАНОРАМА ДНЯ</p>
 </div>
 <article class="photo__content photo__content--day">
   <p class="photo__content__name">Анна <span class="photo__content__time">(5 МИНУТ НАЗАД)</span></p>
@@ -231,7 +231,7 @@
   <picture class="photo__content__img">
     <source media="(min-width: 960px)" srcset="images/photo-img/photo-section/desktop/photo-1-desktop.jpg">
     <source media="(min-width: 660px)" srcset="images/photo-img/photo-section/tablet/photo-1-tablet.jpg">
-    <img class="photo__content__img" src="images/photo-img/photo-section/mobile/photo-1-mobile.jpg">
+    <img class="photo__content__img" src="images/photo-img/photo-section/mobile/photo-1-mobile.jpg" alt="ФОТО">
   </picture>
 <div class="photo__content">
 <div class="photo__sub__wrapper">
@@ -246,7 +246,7 @@
   <picture class="photo__content__img">
     <source media="(min-width: 960px)" srcset="images/photo-img/photo-section/desktop/photo-2-desktop.jpg">
     <source media="(min-width: 660px)" srcset="images/photo-img/photo-section/tablet/photo-2-tablet.jpg">
-    <img class="photo__content__img" src="images/photo-img/photo-section/mobile/photo-2-mobile.jpg">
+    <img class="photo__content__img" src="images/photo-img/photo-section/mobile/photo-2-mobile.jpg" alt="ФОТО">
   </picture>
 
 <div class="photo__content">
@@ -264,7 +264,7 @@
   <picture class="photo__content__img">
     <source media="(min-width: 960px)" srcset="images/photo-img/photo-section/desktop/photo-3-desktop.jpg">
     <source media="(min-width: 660px)" srcset="images/photo-img/photo-section/tablet/photo-3-tablet.jpg">
-    <img class="photo__content__img" src="images/photo-img/photo-section/mobile/photo-3-mobile.jpg">
+    <img class="photo__content__img" src="images/photo-img/photo-section/mobile/photo-3-mobile.jpg" alt="ФОТО">
   </picture>
 <div class="photo__content">
   <div class="photo__content__wrapper">
@@ -279,7 +279,7 @@
 <picture class="photo__content__img">
   <source media="(min-width: 960px)" srcset="images/photo-img/photo-section/desktop/photo-4-desktop.jpg">
   <source media="(min-width: 660px)" srcset="images/photo-img/photo-section/tablet/photo-4-tablet.jpg">
-  <img class="photo__content__img" src="images/photo-img/photo-section/mobile/photo-4-mobile.jpg">
+  <img class="photo__content__img" src="images/photo-img/photo-section/mobile/photo-4-mobile.jpg" alt="ФОТО">
 </picture>
 
 <div class="photo__content">
@@ -295,7 +295,7 @@
 <picture class="photo__content__img">
   <source media="(min-width: 960px)" srcset="images/photo-img/photo-section/desktop/photo-5-desktop.jpg">
   <source media="(min-width: 660px)" srcset="images/photo-img/photo-section/tablet/photo-5-tablet.jpg">
-  <img class="photo__content__img" src="images/photo-img/photo-section/mobile/photo-5-mobile.jpg">
+  <img class="photo__content__img" src="images/photo-img/photo-section/mobile/photo-5-mobile.jpg" alt="ФОТО">
 </picture>
 
 <div class="photo__content">
@@ -311,7 +311,7 @@
 <picture class="photo__content__img">
   <source media="(min-width: 960px)" srcset="images/photo-img/photo-section/desktop/photo-6-desktop.jpg">
   <source media="(min-width: 660px)" srcset="images/photo-img/photo-section/tablet/photo-6-tablet.jpg">
-  <img class="photo__content__img" src="images/photo-img/photo-section/mobile/photo-6-mobile.jpg">
+  <img class="photo__content__img" src="images/photo-img/photo-section/mobile/photo-6-mobile.jpg" alt="ФОТО">
 </picture>
 <div class="photo__content">
   <div class="photo__content__wrapper">
@@ -337,24 +337,24 @@
     <picture>
       <source media="(min-width: 960px)" srcset="images/photo-img/photo-section/desktop/photo-7-desktop.jpg">
       <source media="(min-width: 660px)" srcset="images/photo-img/photo-section/tablet/photo-7-tablet.jpg">
-      <img class="filter__img" src="images/photo-img/photo-section/mobile/photo-7-mobile.jpg">
+      <img class="filter__img" src="images/photo-img/photo-section/mobile/photo-7-mobile.jpg" alt="ФОТО">
     </picture>
 
 <div class="filter__sub-wrapper">
   <div class="filter__setting">
     <div class="filter__setting__wrapper">
       <svg class="filter__setting__icon filter__setting__icon--crop filter__setting__icon--active"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#crop"></use></svg>
-      <input class="filter__setting__range filter__setting__range--desktop" type="range" name="" value="">
+      <input class="filter__setting__range filter__setting__range--desktop" type="range">
     </div>
     <div class="filter__setting__wrapper">
       <svg  class="filter__setting__icon filter__setting__icon--fill"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#fill"></use></svg>
-      <input class="filter__setting__range filter__setting__range--desktop" type="range" name="" value="">
+      <input class="filter__setting__range filter__setting__range--desktop" type="range">
     </div>
     <div class="filter__setting__wrapper">
       <svg  class="filter__setting__icon filter__setting__icon--contrast"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#contrast"></use></svg>
-      <input class="filter__setting__range filter__setting__range--desktop" type="range" name="" value="">
+      <input class="filter__setting__range filter__setting__range--desktop" type="range">
     </div>
-    <input class="filter__setting__range filter__setting__range--mobile" type="range" name="" value="">
+    <input class="filter__setting__range filter__setting__range--mobile" type="range">
   </div>
 
   <div class="filter__button__wrapper">
