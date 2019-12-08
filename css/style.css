@@ -314,7 +314,7 @@ img {
 }
 @media (min-width: 1200px) {
   .pink__download {
-    background-image: url("/images/index-img/page-header/desktop__hand.jpg");
+    background-image: url("../images/index-img/page-header/desktop__hand.jpg");
     background-position: 50% 100%;
     background-repeat: no-repeat;
     padding-bottom: 150px;
